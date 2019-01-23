@@ -5,10 +5,11 @@ This code is fully developed by Ahmed Wael for the Information Theory and Coding
 
 ## How to use
 For channel coding only:
-    -Run the .m file named main_channel as it is the main program where all the functions are called.
+    -Run the .m file named main_channel.
 For both the source and channel coding :
-    - 
-For code details and documentation, please take a look at the Documentation folder, where both the details of the algorithm and the code details are explained throughly. 
+    -Run the .m file named main.
+    
+For code details and documentation, please take a look at the documentation folder.
 
 
 # Algorithm
@@ -23,7 +24,18 @@ effect.
 3. Decode the encoded stream block by block
     - Calculate the output of each of the different branches are the are equal
 to 2n where n is equal to the output size over the input size.
-
+    - For each K bits, calculate 2n hamming distances corresponding the
+different branches by summing the different bits.
+    - Calculate the hamming distance for each node by comparing the
+accumulated distances of the branches leading to this node.
+    - Loop from the end of the trellis to the beginning of it, and get the
+current state and the previous state, which can lead to finding the
+decoded bit.
+4. Calculate the bit error rate by summing all the different bits of the decoded
+versus the input streams, and divide by the input size.
+5. Compare the performance of the uncoded code versus the convolutional
+code.
+6. All this is integrated with the source coding from [Huffman project](https://github.com/ahmedwael19/CIE425---Huffman-Algorithm).
 ## SNR vs BER
 
 For the attached example, the SNR vs BER for both the encoding with the convoluational encoding and without the convolutional encoding can be generated in a MATLAB as following :
