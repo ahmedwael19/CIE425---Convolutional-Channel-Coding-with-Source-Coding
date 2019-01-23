@@ -4,9 +4,9 @@ This program will take a text file as input and encode it using Huffman lossless
 This code is fully developed by Ahmed Wael for the Information Theory and Coding class in Fall 2018.
 
 ## How to use
--For channel coding only:
+* For channel coding only:
     -Run the .m file named main_channel.
--For both the source and channel coding :
+* For both the source and channel coding :
     -Run the .m file named main.
     
 For code details and documentation, please take a look at the documentation folder.
