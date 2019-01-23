@@ -25,8 +25,7 @@ to 2n where n is equal to the output size over the input size.
 ## SNR vs BER
 
 For the attached example, the SNR vs BER can be generated in a MATLAB as following :
-![alt text](https://raw.githubusercontent.com/ahmedwael19/CIE425---Huffman-Algorithm/master/SNR%vs%BER.jpg)
-
+![alt text](https://raw.githubusercontent.com/ahmedwael19//CIE425---Convolutional-Channel-Coding-with-Source-Coding/master/SNR%vs%BER.jpg)
 
 
 
