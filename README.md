@@ -4,8 +4,10 @@ This program will take a text file as input and encode it using Huffman lossless
 This code is fully developed by Ahmed Wael for the Information Theory and Coding class in Fall 2018.
 
 ## How to use
-Run the .m file named Huff as it is the main program where all the functions are called.
-
+For channel coding only:
+    -Run the .m file named main_channel as it is the main program where all the functions are called.
+For both the source and channel coding :
+    - 
 For code details and documentation, please take a look at the Documentation folder, where both the details of the algorithm and the code details are explained throughly. 
 
 
@@ -24,7 +26,7 @@ to 2n where n is equal to the output size over the input size.
 
 ## SNR vs BER
 
-For the attached example, the SNR vs BER can be generated in a MATLAB as following :
+For the attached example, the SNR vs BER for both the encoding with the convoluational encoding and without the convolutional encoding can be generated in a MATLAB as following :
 ![alt text](https://raw.githubusercontent.com/ahmedwael19/CIE425---Convolutional-Channel-Coding-with-Source-Coding/master/SNRvsBER.jpg)
 
 
